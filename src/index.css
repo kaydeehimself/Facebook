@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue", sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: rgb(230, 230, 230);
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+
+.app {
+  display: flex;
+  flex-direction: column;
+  max-width: 1366px;
+  height: 768px;
+  padding: 2em;
+  margin-top: 150px;
+}
+
+.hero {
+  display: flex;
+  justify-content: space-between;
+  padding: 0em;
+}
+
+.hero-items {
+  width: 450px;
+  align-items: center;
+  margin: auto;
+}
+
+.hero-text {
+  font-size: 25px;
+  font-weight: 600;
+  margin-top: -10px;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  padding: 15px;
+  margin: auto;
+  width: 350px;
+  border-radius: 5px;
+  margin-left: 300px;
+  height: 300px;
+  background-color: white;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.formfield {
+  padding: 15px;
+  margin-top: 10px;
+  width: 300px;
+}
+
+.btn {
+  margin-top: 10px;
+  padding: 15px;
+  width: 300px;
+  color: white;
+  font-weight: 600;
+  background-color: rgb(59, 59, 255);
+  border-style: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.passwordforgot {
+  margin: auto;
+  text-decoration: none;
+  padding: 5px;
+  text-align: center;
+  width: 300px;
+  border-bottom: 1px solid grey;
+}
+
+.createaccount {
+  margin: auto;
+  padding: 15px;
+  width: 300px;
+  color: white;
+  font-weight: 600;
+  background-color: rgb(0, 129, 11);
+  border-style: none;
+  border-radius: 5px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.celebrityaccount {
+  text-decoration: none;
+  text-align: left;
+  font-size: 12;
+}
+
+.celebrityaccountsp {
+  text-align: left;
+}
+
+.logo {
+  width: 300px;
+  margin-left: -30px;
+}
+
+.footer {  
+  margin-top: 350px;
+  background-color: white;
+  margin-left: -32px;
+  margin-right: -32px;
+}
+
+.list {
+  display: flex;
+  justify-content: space-between;
+  list-style-type: none;
+  padding: 5px;
+  color: grey;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 786px) {
+  .hero {
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    margin: auto;
+    justify-content: center;    
+  }
+
+  .hero-items {
+    margin-top: -10em;
+    padding: 3em;
+    align-items: center;
+  }
+
+  .logo {
+    margin: auto;
+    justify-items: center;
+  }
+
+  .hero-text {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  .form {
+    margin: auto;
+    margin-top: 2em;
+  }
+
+}
